@@ -1,0 +1,26 @@
+
+    table, th, td 
+    {
+        border: 2px solid;
+    }
+
+    th
+    {
+        background-color: aquamarine;
+    }
+
+    td
+    {
+        background-color: white;
+    }
+
+    body
+    {
+        background-color: bisque;
+    }
+
+    div
+    {
+        width: auto;
+        margin: auto;
+    }
