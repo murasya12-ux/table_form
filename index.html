@@ -4,19 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table_form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-        table, th, td 
-    {
-        border: 2px solid;
-    }
-
-    body
-    {
-        background-color: bisque;
-    }
-</style>
 <body>
+    <div>
     <h1>1.TABLE</h1>
         <p>
         対戦結果
@@ -78,9 +69,11 @@
             <td colspan="5">投手：榎本 捕手：川上</td>
         </tr>
     </table>
+    </div>
 
     <h1>2.FORM</h1>
     <h2>お問い合わせ</h2>
+    <div class="form">
     <form>
         <label for="fname" >お名前 [必須]</label>
         <input type="text" id="fname" name="fname">
@@ -106,6 +99,7 @@
         <label for="comment">お問い合わせ内容 [必須]</label><br>
         <textarea id="comment" name="comment" rows="5" cols="100"></textarea>
     </form>
+    </div>
     <input type="submit" value="submit">
 
 
