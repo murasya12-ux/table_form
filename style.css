@@ -23,6 +23,10 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
+        background-image: url(Canva\ Keyword\ \ Chinese\ New\ Year\ Background\ Vector.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        image-rendering: auto;
     }
 
     div
